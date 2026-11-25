@@ -68,13 +68,13 @@
         <mxCell id="pJW6jzSKHJFzsl9_i-nF-39" parent="pJW6jzSKHJFzsl9_i-nF-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ konvertiereInGemeinsameZeit (quellZeit, zeitversatz)" vertex="1">
           <mxGeometry height="30" width="330" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="pJW6jzSKHJFzsl9_i-nF-38" parent="pJW6jzSKHJFzsl9_i-nF-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ pruefeKoordinatenRahmen(trajektorie)" vertex="1">
+        <mxCell id="pJW6jzSKHJFzsl9_i-nF-38" parent="pJW6jzSKHJFzsl9_i-nF-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ pruefeKoordinatensystem(trajektorie)" vertex="1">
           <mxGeometry height="30" width="330" y="150" as="geometry" />
         </mxCell>
         <mxCell id="pJW6jzSKHJFzsl9_i-nF-27" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Modul trajektorienSampling" vertex="1">
           <mxGeometry height="90" width="230" x="597" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="pJW6jzSKHJFzsl9_i-nF-28" parent="pJW6jzSKHJFzsl9_i-nF-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ samplePositionsPunkt(trajektorie, zeit)" vertex="1">
+        <mxCell id="pJW6jzSKHJFzsl9_i-nF-28" parent="pJW6jzSKHJFzsl9_i-nF-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ ermittlePositionUm(trajektorie, zeit)" vertex="1">
           <mxGeometry height="30" width="230" y="30" as="geometry" />
         </mxCell>
         <mxCell id="pJW6jzSKHJFzsl9_i-nF-29" parent="pJW6jzSKHJFzsl9_i-nF-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ slerp (a,b,alpha)" vertex="1">
