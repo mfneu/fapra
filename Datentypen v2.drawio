@@ -14,7 +14,7 @@
           <mxGeometry height="30" width="160" y="60" as="geometry" />
         </mxCell>
         <mxCell id="p232exWcY5NityEtsgkL-4" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Trajektorie" vertex="1">
-          <mxGeometry height="240" width="220" x="360" y="150" as="geometry" />
+          <mxGeometry height="270" width="220" x="360" y="150" as="geometry" />
         </mxCell>
         <mxCell id="p232exWcY5NityEtsgkL-22" parent="p232exWcY5NityEtsgkL-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ cmmcoID: String" vertex="1">
           <mxGeometry height="30" width="220" y="30" as="geometry" />
@@ -34,8 +34,11 @@
         <mxCell id="p232exWcY5NityEtsgkL-9" parent="p232exWcY5NityEtsgkL-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ rotationsKonvention: String" vertex="1">
           <mxGeometry height="30" width="220" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="p232exWcY5NityEtsgkL-10" parent="p232exWcY5NityEtsgkL-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ positionsPunkte: PositionsPunkt[*]" vertex="1">
+        <mxCell id="p232exWcY5NityEtsgkL-43" parent="p232exWcY5NityEtsgkL-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ datenKlasse: String" vertex="1">
           <mxGeometry height="30" width="220" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="p232exWcY5NityEtsgkL-10" parent="p232exWcY5NityEtsgkL-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ positionsPunkte: PositionsPunkt[*]" vertex="1">
+          <mxGeometry height="30" width="220" y="240" as="geometry" />
         </mxCell>
         <mxCell id="p232exWcY5NityEtsgkL-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PositionsPunkt" vertex="1">
           <mxGeometry height="150" width="173" x="667" y="150" as="geometry" />
