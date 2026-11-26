@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="Abbildung24" name="Abbildung 24">
+    <mxGraphModel dx="791" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="viewCluster" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d9a066;fillColor=none;fontStyle=1;align=left;verticalAlign=top;spacingTop=6;" value="View-Schicht" vertex="1">
+          <mxGeometry height="480" width="980" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrlCluster" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7fa6d6;fillColor=none;fontStyle=1;align=left;verticalAlign=top;spacingTop=6;" value="Controller-Schicht" vertex="1">
+          <mxGeometry height="180" width="980" x="40" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ctxCluster" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9a9a9a;dashed=1;fillColor=none;fontStyle=1;align=left;verticalAlign=top;spacingTop=6;" value="Gemeinsamer Kontext" vertex="1">
+          <mxGeometry height="180" width="260" x="1060" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="layout" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;fillColor=#ffffff;" value="Integrierte&lt;br&gt;Analyseoberfläche" vertex="1">
+          <mxGeometry height="70" width="230" x="410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aufnahme" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="Aufnahmeauswahl" vertex="1">
+          <mxGeometry height="60" width="180" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="video" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="Videoansicht" vertex="1">
+          <mxGeometry height="60" width="180" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="viewer3d" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="3D-Trajektorienansicht" vertex="1">
+          <mxGeometry height="60" width="210" x="530" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="objekte" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="Objekteinstellungen" vertex="1">
+          <mxGeometry height="60" width="180" x="840" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="segmente" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="Zeitabschnittsansicht" vertex="1">
+          <mxGeometry height="60" width="200" x="160" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vergleich" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="Bewegungsvergleichsansicht" vertex="1">
+          <mxGeometry height="60" width="230" x="460" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="diagnose" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="Synchronisationsdiagnose" vertex="1">
+          <mxGeometry height="60" width="220" x="710" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cAuf" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="useAufnahmeSteuerung&lt;br&gt;«React-Hook»" vertex="1">
+          <mxGeometry height="70" width="220" x="120" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="cVid" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="useVideoWiedergabe&lt;br&gt;«React-Hook»" vertex="1">
+          <mxGeometry height="70" width="220" x="410" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="cSeg" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="useZeitabschnitte&lt;br&gt;«React-Hook»" vertex="1">
+          <mxGeometry height="70" width="220" x="670" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="playback" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;fillColor=#ffffff;" value="Playback" vertex="1">
+          <mxGeometry height="60" width="160" x="1110" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;exitX=0.083;exitY=0.445;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="aufnahme" value="enthält">
+          <mxGeometry relative="1" x="-0.4751" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="330" y="110" />
+            </Array>
+            <mxPoint x="426.0899999999999" y="111.15000000000009" as="sourcePoint" />
+            <mxPoint x="257" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="layout" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;entryX=0.429;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" target="viewCluster" value="enthält">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;" value="enthält">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="150.00000000000006" as="sourcePoint" />
+            <mxPoint x="590" y="200.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="layout" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;entryX=0.177;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="objekte" value="enthält">
+          <mxGeometry relative="1" x="0.0322" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="790" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="layout" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;exitX=0.064;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="segmente" value="enthält">
+          <mxGeometry relative="1" x="-0.5558" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="310" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="layout" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;" target="vergleich" value="enthält">
+          <mxGeometry relative="1" x="-0.7778" y="15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="layout" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;" target="diagnose" value="enthält">
+          <mxGeometry relative="1" x="-0.186" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="760" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="layout" style="endArrow=block;html=1;orthogonal=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.153;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" target="cAuf" value="nutzt">
+          <mxGeometry relative="1" x="0.0035" y="4" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="445.19" y="400" />
+            </Array>
+            <mxPoint x="430" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="endArrow=block;html=1;orthogonal=1;" value="nutzt">
+          <mxGeometry relative="1" x="0.4043" y="8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="511.9999999999998" y="150" as="sourcePoint" />
+            <mxPoint x="511.9999999999998" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="layout" style="endArrow=block;html=1;orthogonal=1;" target="cSeg" value="nutzt">
+          <mxGeometry relative="1" x="0.4084" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="700" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="cAuf" style="endArrow=block;html=1;orthogonal=1;entryX=0.295;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="aufnahme" value="steuert">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="cAuf" style="endArrow=block;html=1;orthogonal=1;entryX=0.077;entryY=0.961;entryDx=0;entryDy=0;entryPerimeter=0;" target="layout" value="liefert Aufnahmezustand">
+          <mxGeometry relative="1" x="-0.4578" y="65" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="cVid" style="endArrow=block;html=1;orthogonal=1;" target="video" value="steuert">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" style="endArrow=block;html=1;orthogonal=1;" value="koordiniert Zeit">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="568" y="620" as="sourcePoint" />
+            <mxPoint x="568" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="cVid" style="endArrow=block;html=1;orthogonal=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="diagnose" value="liefert Status">
+          <mxGeometry relative="1" x="0.6016" y="26" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" style="endArrow=block;html=1;orthogonal=1;entryX=0.594;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="segmente" value="steuert">
+          <mxGeometry relative="1" x="0.1321" y="-5" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <mxPoint x="690" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="cSeg" style="endArrow=block;html=1;orthogonal=1;entryX=0.631;entryY=1.068;entryDx=0;entryDy=0;exitX=0.089;exitY=0.197;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="vergleich" value="liefert Zeitabschnitte">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="playback" style="endArrow=block;html=1;orthogonal=1;" target="cVid" value="gemeinsame Wiedergabezeit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="playback" style="endArrow=block;html=1;orthogonal=1;" target="video" value="Zeitbezug">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="playback" style="endArrow=block;html=1;orthogonal=1;" target="viewer3d" value="Zeitbezug">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" style="endArrow=block;html=1;orthogonal=1;" value="relative Wiedergabe">
+          <mxGeometry relative="1" x="0.0222" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1110" y="338" as="sourcePoint" />
+            <mxPoint x="690" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" source="aufnahme" style="endArrow=block;html=1;orthogonal=1;entryX=0.878;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" target="viewCluster" value="aktive Aufnahme">
+          <mxGeometry relative="1" x="0.6371" y="31" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="320" y="50" />
+              <mxPoint x="530" y="50" />
+              <mxPoint x="690" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="1" source="objekte" style="endArrow=block;html=1;orthogonal=1;" target="viewer3d" value="Darstellungseinstellungen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e24" edge="1" parent="1" source="segmente" style="endArrow=block;html=1;orthogonal=1;" target="vergleich" value="ausgewählte Abschnitte">
+          <mxGeometry relative="1" x="0.2" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
