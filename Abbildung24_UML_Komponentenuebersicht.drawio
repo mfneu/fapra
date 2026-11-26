@@ -28,13 +28,13 @@
         <mxCell id="diagnose" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="Synchronisationsdiagnose" vertex="1">
           <mxGeometry height="60" width="220" x="710" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="cAuf" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="benutzeAufnahmeSteuerung&lt;br&gt;«React-Hook»" vertex="1">
+        <mxCell id="cAuf" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="benutzeAufnahmeSteuerung" vertex="1">
           <mxGeometry height="70" width="220" x="120" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="cVid" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="steuereVideoWiedergabe&lt;br&gt;«React-Hook»" vertex="1">
+        <mxCell id="cVid" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="steuereVideoWiedergabe" vertex="1">
           <mxGeometry height="70" width="220" x="410" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="cSeg" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="useZeitabschnitte&lt;br&gt;«React-Hook»" vertex="1">
+        <mxCell id="cSeg" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;" value="useZeitabschnitte" vertex="1">
           <mxGeometry height="70" width="220" x="670" y="620" as="geometry" />
         </mxCell>
         <mxCell id="playback" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;fillColor=#ffffff;" value="Playback" vertex="1">
