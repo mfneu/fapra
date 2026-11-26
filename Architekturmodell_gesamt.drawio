@@ -1,9 +1,126 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="5b6r_pqnFTf0PzLQEWz6">
-    <mxGraphModel>
+    <mxGraphModel dx="854" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="110" width="440" x="220" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="420" width="810" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="260" width="460" x="130" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-1" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Bestehende MMIR-Ergebnispräsentation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="360" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-2" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&lt;div&gt;CONTROLLER&lt;/div&gt;&lt;div&gt;Aufnahme/ Wiedergabe/ Abschnitte&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-3" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&lt;div&gt;VIEW&lt;/div&gt;&lt;div&gt;3D-Trajektorien und Video&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="190" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-4" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&lt;div&gt;MODELL&lt;/div&gt;&lt;div&gt;Importadapter/ BewegungsDatensatz&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-5" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&lt;div&gt;Playback: gemeinsame Zeit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="680" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-6" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&lt;div&gt;GMAF-REST-Schnittstelle&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="290" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-7" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&lt;div&gt;GMAF-Kern&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="490" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-8" edge="1" parent="1" source="TVYIyWMi7OR9hbMW3DWP-7" style="endArrow=block;startArrow=block;endFill=1;startFill=1;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;exitX=0.088;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;" target="TVYIyWMi7OR9hbMW3DWP-6" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="360" y="490" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-9" edge="1" parent="1" source="TVYIyWMi7OR9hbMW3DWP-6" style="endArrow=block;startArrow=block;endFill=1;startFill=1;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.413;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="TVYIyWMi7OR9hbMW3DWP-4" value="">
+          <mxGeometry relative="1" width="160" x="-0.0265" as="geometry">
+            <Array as="points" />
+            <mxPoint x="370" y="620" as="sourcePoint" />
+            <mxPoint x="370" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-14" connectable="0" parent="TVYIyWMi7OR9hbMW3DWP-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=none;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Abruf" vertex="1">
+          <mxGeometry relative="1" x="-0.1607" y="1" as="geometry">
+            <mxPoint x="6" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-10" edge="1" parent="1" style="endArrow=block;startArrow=block;endFill=1;startFill=1;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.069;entryY=0.46;entryDx=0;entryDy=0;entryPerimeter=0;" target="TVYIyWMi7OR9hbMW3DWP-2" value="">
+          <mxGeometry relative="1" width="160" x="-0.0265" as="geometry">
+            <Array as="points" />
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="386" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-17" connectable="0" parent="TVYIyWMi7OR9hbMW3DWP-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=none;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Zustände/ Benutzerinteraktion" vertex="1">
+          <mxGeometry relative="1" x="-0.2816" y="-1" as="geometry">
+            <mxPoint x="-64" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-11" edge="1" parent="1" source="TVYIyWMi7OR9hbMW3DWP-2" style="endArrow=block;startArrow=block;endFill=1;startFill=1;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.063;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" target="TVYIyWMi7OR9hbMW3DWP-5" value="">
+          <mxGeometry relative="1" width="160" x="-0.0352" as="geometry">
+            <Array as="points" />
+            <mxPoint x="440" y="546" as="sourcePoint" />
+            <mxPoint x="546" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-18" connectable="0" parent="TVYIyWMi7OR9hbMW3DWP-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=none;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Wiedergabezustand" vertex="1">
+          <mxGeometry relative="1" x="-0.1076" y="1" as="geometry">
+            <mxPoint x="51" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-12" edge="1" parent="1" source="TVYIyWMi7OR9hbMW3DWP-2" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;exitX=0.706;exitY=1.04;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="TVYIyWMi7OR9hbMW3DWP-4" value="">
+          <mxGeometry relative="1" width="160" x="-0.036" as="geometry">
+            <Array as="points" />
+            <mxPoint x="570" y="286" as="sourcePoint" />
+            <mxPoint x="701" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-16" connectable="0" parent="TVYIyWMi7OR9hbMW3DWP-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=none;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Laden, Aufbereiten" vertex="1">
+          <mxGeometry relative="1" x="-0.0885" as="geometry">
+            <mxPoint x="49" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-13" edge="1" parent="1" source="TVYIyWMi7OR9hbMW3DWP-4" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;exitX=0.05;exitY=0.5;exitDx=0;exitDy=0;entryX=0.569;entryY=1.02;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="TVYIyWMi7OR9hbMW3DWP-3" value="">
+          <mxGeometry relative="1" width="160" x="-0.036" as="geometry">
+            <Array as="points" />
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <mxPoint x="497" y="442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-15" connectable="0" parent="TVYIyWMi7OR9hbMW3DWP-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=none;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Trajektoriendaten" vertex="1">
+          <mxGeometry relative="1" x="-0.0059" as="geometry">
+            <mxPoint x="-30" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-19" edge="1" parent="1" source="TVYIyWMi7OR9hbMW3DWP-1" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TVYIyWMi7OR9hbMW3DWP-2" value="">
+          <mxGeometry relative="1" width="160" x="-0.036" as="geometry">
+            <Array as="points" />
+            <mxPoint x="470" y="290" as="sourcePoint" />
+            <mxPoint x="487" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-20" connectable="0" parent="TVYIyWMi7OR9hbMW3DWP-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=none;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Aufnahme-ID" vertex="1">
+          <mxGeometry relative="1" x="-0.0885" as="geometry">
+            <mxPoint x="40" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Browser: React-GMAF-WebUI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;3D-Trajektorienanalyse&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="150" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TVYIyWMi7OR9hbMW3DWP-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GMAF-Backend&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="230" y="490" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
