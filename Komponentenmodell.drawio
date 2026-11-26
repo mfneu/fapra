@@ -1,16 +1,13 @@
 <mxfile host="app.diagrams.net" agent="ChatGPT">
   <diagram id="gmaf-aufnahme-mvc" name="Abbildung 25 – UML-Komponentenmodell">
-    <mxGraphModel dx="1284" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1180" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1180" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="titel" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=19;fontColor=#242424;" value="Abbildung 25: Konzeptionelles UML-Komponentenmodell der Aufnahmeverarbeitung" vertex="1">
-          <mxGeometry height="38" width="1330" x="80" y="20" as="geometry" />
-        </mxCell>
         <mxCell id="gmaf" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="GMAF-Datenbereitstellung" vertex="1">
           <mxGeometry height="52" width="300" x="300" y="155" as="geometry" />
         </mxCell>
-        <mxCell id="local" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Lokale Aufnahmequelle" vertex="1">
+        <mxCell id="local" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Lokale Quelle von CMMCOs" vertex="1">
           <mxGeometry height="52" width="300" x="910" y="155" as="geometry" />
         </mxCell>
         <mxCell id="ctl" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Aufnahmeverwaltung" vertex="1">
