@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="viewCluster" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d9a066;fillColor=none;fontStyle=1;align=left;verticalAlign=top;spacingTop=6;" value="View-Schicht" vertex="1">
-          <mxGeometry height="480" width="980" x="40" y="40" as="geometry" />
-        </mxCell>
         <mxCell id="layout" parent="1" style="shape=component;whiteSpace=wrap;html=1;rounded=1;strokeColor=#333333;fillColor=#ffffff;" value="Integrierte&lt;br&gt;Analyseoberfläche" vertex="1">
           <mxGeometry height="70" width="230" x="410" y="80" as="geometry" />
         </mxCell>
@@ -53,8 +50,10 @@
             <mxPoint x="257" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="layout" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;entryX=0.429;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" target="viewCluster" value="enthält">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e2" edge="1" parent="1" source="layout" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;entryX=0.429;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" value="enthält">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460.4200000000001" y="199.84000000000003" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e3" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;" value="enthält">
           <mxGeometry relative="1" as="geometry">
@@ -162,7 +161,7 @@
             <mxPoint x="690" y="338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e22" edge="1" parent="1" source="aufnahme" style="endArrow=block;html=1;orthogonal=1;entryX=0.878;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" target="viewCluster" value="aktive Aufnahme">
+        <mxCell id="e22" edge="1" parent="1" source="aufnahme" style="endArrow=block;html=1;orthogonal=1;entryX=0.878;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" value="aktive Aufnahme">
           <mxGeometry relative="1" x="0.6371" y="31" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -170,6 +169,7 @@
               <mxPoint x="530" y="50" />
               <mxPoint x="690" y="50" />
             </Array>
+            <mxPoint x="900.44" y="199.84000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e23" edge="1" parent="1" source="objekte" style="endArrow=block;html=1;orthogonal=1;" target="viewer3d" value="Darstellungseinstellungen">
@@ -185,6 +185,9 @@
         </mxCell>
         <mxCell id="jWX5IuoHz_nfjqxghc0h-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; display: inline !important; float: none;&quot;&gt;Controller-Schicht&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="140" x="40" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="jWX5IuoHz_nfjqxghc0h-3" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; display: inline !important; float: none;&quot;&gt;View-Schicht&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="55" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
