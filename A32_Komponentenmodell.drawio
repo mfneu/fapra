@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="gmaf-aufnahme-mvc" name="Abbildung 25 – UML-Komponentenmodell">
+    <mxGraphModel dx="1154" dy="1281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1180" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gmaf" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="GMAF-Datenbereitstellung" vertex="1">
+          <mxGeometry height="52" width="300" x="300" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="local" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Lokale Quelle von CMMCOs" vertex="1">
+          <mxGeometry height="52" width="300" x="910" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="ctl" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Aufnahmeverwaltung" vertex="1">
+          <mxGeometry height="52" width="280" x="615" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="cmmco" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="generischer CMMCO-Adapter" vertex="1">
+          <mxGeometry height="52" width="280" x="300" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="unity" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Unity-Aufnahmeadapter" vertex="1">
+          <mxGeometry height="52" width="280" x="925" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="time" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Zeitbasis-Interpretation" vertex="1">
+          <mxGeometry height="52" width="280" x="300" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="motion" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Bewegungsdatenmodell" vertex="1">
+          <mxGeometry height="52" width="280" x="925" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="aufnahme" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Aufnahmecontainer" vertex="1">
+          <mxGeometry height="52" width="280" x="615" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="view" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Analyseoberfläche" vertex="1">
+          <mxGeometry height="52" width="280" x="615" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="gmaf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="ctl" value="Aufnahme">
+          <mxGeometry relative="1" x="-0.5506" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="710" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="ctl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="cmmco" value="nutzt">
+          <mxGeometry relative="1" y="-20" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="ctl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="unity" value="nutzt">
+          <mxGeometry relative="1" x="0.0261" y="15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="cmmco" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="time" value="interpretiert Zeitbezüge">
+          <mxGeometry relative="1" x="-0.1429" y="-60" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="unity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="motion" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-10" connectable="0" parent="e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=#FFFFFF;" value="überführt Bewegungsdaten" vertex="1">
+          <mxGeometry relative="1" x="-0.0952" as="geometry">
+            <mxPoint x="75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="time" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="aufnahme" value="Zeitbezug">
+          <mxGeometry relative="1" x="-0.0734" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="740" y="686" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="motion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="aufnahme" value="Bewegungsdaten">
+          <mxGeometry relative="1" x="-0.252" y="14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="770" y="686" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="ctl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aufnahme" value="übernimmt">
+          <mxGeometry relative="1" x="-0.3889" y="35" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="720" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="aufnahme" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;" target="view" value="aufbereitete Aufnahme">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; display: inline !important; float: none;&quot;&gt;Externe Quellen / bestehende Umgebung&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="310" x="90" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-2" edge="1" parent="1" source="local" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.053;exitY=0.545;exitDx=0;exitDy=0;exitPerimeter=0;" value="Aufnahme">
+          <mxGeometry relative="1" x="-0.5388" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="925.9" y="180" />
+            </Array>
+            <mxPoint x="810" y="250" as="sourcePoint" />
+            <mxPoint x="790" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-3" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; display: inline !important; float: none;&quot;&gt;Controller-Schicht&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="90" y="343" as="geometry" />
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-4" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; float: none; display: inline !important;&quot;&gt;Modellschicht&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="90" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-5" edge="1" parent="1" source="cmmco" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.905;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.176;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="motion" value="">
+          <mxGeometry relative="1" x="0.3735" as="geometry">
+            <Array as="points">
+              <mxPoint x="553.4" y="630" />
+              <mxPoint x="974.3" y="630" />
+            </Array>
+            <mxPoint x="540" y="620" as="sourcePoint" />
+            <mxPoint x="540" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-9" connectable="0" parent="GmX89T6n7aw5kgzleCFw-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=#FFFFFF;" value="überführt Bewegungsdaten" vertex="1">
+          <mxGeometry relative="1" x="-0.4647" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-6" edge="1" parent="1" source="unity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.221;exitY=1.048;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.64;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" target="time" value="">
+          <mxGeometry relative="1" x="-0.3941" as="geometry">
+            <Array as="points">
+              <mxPoint x="986.9" y="610" />
+              <mxPoint x="800" y="610" />
+              <mxPoint x="800" y="650" />
+              <mxPoint x="479.2" y="650" />
+            </Array>
+            <mxPoint x="890" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-8" connectable="0" parent="GmX89T6n7aw5kgzleCFw-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;labelBackgroundColor=#FFFFFF;" value="interpretiert Zeitbezüge" vertex="1">
+          <mxGeometry relative="1" x="-0.5732" y="2" as="geometry">
+            <mxPoint x="-11" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-11" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(236, 236, 236); text-decoration: none; display: inline !important; float: none;&quot;&gt;View-Schicht&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="100" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="GmX89T6n7aw5kgzleCFw-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#555555;fontSize=11;labelBackgroundColor=#FFFFFF;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="view" value="stellt bereit">
+          <mxGeometry relative="1" x="0.7637" y="30" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="880" y="750" />
+              <mxPoint x="910" y="750" />
+              <mxPoint x="910" y="946" />
+            </Array>
+            <mxPoint x="880" y="390" as="sourcePoint" />
+            <mxPoint x="840" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
