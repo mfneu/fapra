@@ -7,7 +7,7 @@
         <mxCell id="gmaf" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="GMAF-Datenbereitstellung" vertex="1">
           <mxGeometry height="52" width="300" x="300" y="155" as="geometry" />
         </mxCell>
-        <mxCell id="local" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Lokale Quelle von CMMCOs" vertex="1">
+        <mxCell id="local" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Lokale Aufnahmequelle" vertex="1">
           <mxGeometry height="52" width="300" x="910" y="155" as="geometry" />
         </mxCell>
         <mxCell id="ctl" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Aufnahmeverwaltung" vertex="1">
@@ -19,7 +19,7 @@
         <mxCell id="unity" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Unity-Aufnahmeadapter" vertex="1">
           <mxGeometry height="52" width="280" x="925" y="538" as="geometry" />
         </mxCell>
-        <mxCell id="time" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Zeitbasis-Interpretation" vertex="1">
+        <mxCell id="time" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Zeitbasisinterpretation" vertex="1">
           <mxGeometry height="52" width="280" x="300" y="660" as="geometry" />
         </mxCell>
         <mxCell id="motion" parent="1" style="shape=component;html=1;whiteSpace=wrap;rounded=0;strokeColor=#333333;fillColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;shadow=0;" value="Bewegungsdatenmodell" vertex="1">
