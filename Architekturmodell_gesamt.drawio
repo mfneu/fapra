@@ -113,13 +113,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TVYIyWMi7OR9hbMW3DWP-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Browser: React-GMAF-WebUI&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="380" y="40" as="geometry" />
+          <mxGeometry height="30" width="380" x="5" y="40" as="geometry" />
         </mxCell>
         <mxCell id="TVYIyWMi7OR9hbMW3DWP-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;3D-Trajektorienanalyse&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="150" y="180" as="geometry" />
         </mxCell>
         <mxCell id="TVYIyWMi7OR9hbMW3DWP-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GMAF-Backend&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="140" x="230" y="490" as="geometry" />
+          <mxGeometry height="30" width="140" x="219" y="479" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
