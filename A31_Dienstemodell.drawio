@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="ocQ0HyIj0IaxWvB77RY6">
+    <mxGraphModel dx="1068" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Modellierte Schnittstellen der 3D-Trajektorienanalyse&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="490" x="350" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="GMAF-Infrastruktur (vorhanden)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="902" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IZeitabschnitte&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validiereAbschnitt()&lt;br&gt;+ speichereAbschnitt()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="469" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBewegungsdaten&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ leseQuelle()&lt;br&gt;+ normalisiereTrajaktorien()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IZeitsteuerung&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ starteWiedergabe()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pausiereWiedergabe()&lt;br&gt;+ setzeWiedergabeZurueck()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ springeZuZeitpunkt()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="360" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBereitstellungAufnahme&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ladeAufnahme(aufnahmeID)&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="642" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-7" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;i&gt;&amp;lt;&amp;lt;Service&amp;gt;&amp;gt;&lt;/i&gt;&lt;div&gt;&lt;i&gt;GMAF-REST-Service&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;Aufnahme bereitstellen&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="922" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-10" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;i&gt;&amp;lt;&amp;lt;Controller&amp;gt;&amp;gt;&lt;/i&gt;&lt;div&gt;&lt;i&gt;Aufnahme-/Video-/Abschnitt-steuerung&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="80" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-11" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;i&gt;&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;/i&gt;&lt;div&gt;&lt;i&gt;Video und 3D-Trajektorien&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="80" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-12" edge="1" parent="1" source="e3Uacijs_Bam0CYtwaTE-11" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="e3Uacijs_Bam0CYtwaTE-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="190" as="sourcePoint" />
+            <mxPoint x="590" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-13" connectable="0" parent="e3Uacijs_Bam0CYtwaTE-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Zeitbezug" vertex="1">
+          <mxGeometry relative="1" x="-0.2695" y="-2" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-14" edge="1" parent="1" source="e3Uacijs_Bam0CYtwaTE-10" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e3Uacijs_Bam0CYtwaTE-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="289" as="sourcePoint" />
+            <mxPoint x="400" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-15" connectable="0" parent="e3Uacijs_Bam0CYtwaTE-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="benötigt" vertex="1">
+          <mxGeometry relative="1" x="-0.2695" y="-2" as="geometry">
+            <mxPoint x="2" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-16" edge="1" parent="1" source="e3Uacijs_Bam0CYtwaTE-10" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e3Uacijs_Bam0CYtwaTE-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="369" as="sourcePoint" />
+            <mxPoint x="290" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-17" connectable="0" parent="e3Uacijs_Bam0CYtwaTE-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="benötigt" vertex="1">
+          <mxGeometry relative="1" x="-0.2695" y="-2" as="geometry">
+            <mxPoint y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-18" edge="1" parent="1" source="e3Uacijs_Bam0CYtwaTE-10" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="e3Uacijs_Bam0CYtwaTE-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="299" as="sourcePoint" />
+            <mxPoint x="380" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-19" connectable="0" parent="e3Uacijs_Bam0CYtwaTE-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="benötigt" vertex="1">
+          <mxGeometry relative="1" x="-0.2695" y="-2" as="geometry">
+            <mxPoint y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-20" edge="1" parent="1" source="e3Uacijs_Bam0CYtwaTE-10" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e3Uacijs_Bam0CYtwaTE-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="476" as="sourcePoint" />
+            <mxPoint x="410" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-21" connectable="0" parent="e3Uacijs_Bam0CYtwaTE-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="benötigt" vertex="1">
+          <mxGeometry relative="1" x="-0.2695" y="-2" as="geometry">
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-22" edge="1" parent="1" source="e3Uacijs_Bam0CYtwaTE-4" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="466" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-23" connectable="0" parent="e3Uacijs_Bam0CYtwaTE-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="verarbeitet Ergebnis" vertex="1">
+          <mxGeometry relative="1" x="-0.2695" y="-2" as="geometry">
+            <mxPoint x="37" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-24" edge="1" parent="1" source="e3Uacijs_Bam0CYtwaTE-6" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="e3Uacijs_Bam0CYtwaTE-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="410" as="sourcePoint" />
+            <mxPoint x="720" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3Uacijs_Bam0CYtwaTE-25" connectable="0" parent="e3Uacijs_Bam0CYtwaTE-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="nutzt" vertex="1">
+          <mxGeometry relative="1" x="-0.2695" y="-2" as="geometry">
+            <mxPoint x="2" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
